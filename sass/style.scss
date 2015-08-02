@@ -161,6 +161,7 @@ $font-color: white;
     height: 300px;
     display: inline-block;
     width: 100%;
+    position: relative;
     li {
       display: inline-block;
     }
@@ -184,6 +185,7 @@ $font-color: white;
   }
 
   .seasons {
+    position: relative;
     ul {
       background-color: #766DCC;
       height: 200px;

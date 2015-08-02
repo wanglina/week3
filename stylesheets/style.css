@@ -193,38 +193,43 @@ body {
   height: 300px;
   display: inline-block;
   width: 100%;
+  position: relative;
 }
-/* line 164, ../sass/style.scss */
+/* line 165, ../sass/style.scss */
 .main .about-us li {
   display: inline-block;
 }
-/* line 167, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .main .about-us img {
   display: inline-block;
 }
-/* line 170, ../sass/style.scss */
+/* line 171, ../sass/style.scss */
 .main .about-us li:nth-of-type(1) {
   background-color: #EDEDED;
   width: 50%;
   height: 100%;
 }
-/* line 175, ../sass/style.scss */
+/* line 176, ../sass/style.scss */
 .main .about-us li:nth-of-type(2) {
   background-color: #EFD26C;
   width: 50%;
   height: 100%;
 }
-/* line 180, ../sass/style.scss */
+/* line 181, ../sass/style.scss */
 .main .about-us span {
   font-size: 1rem;
   color: whitesmoke;
 }
 /* line 187, ../sass/style.scss */
+.main .seasons {
+  position: relative;
+}
+/* line 189, ../sass/style.scss */
 .main .seasons ul {
   background-color: #766DCC;
   height: 200px;
 }
-/* line 192, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 .main .seasons span {
   font-size: 1.5rem;
   display: block;
@@ -232,24 +237,24 @@ body {
   color: whitesmoke;
   margin-bottom: 20px;
 }
-/* line 199, ../sass/style.scss */
+/* line 201, ../sass/style.scss */
 .main .seasons p {
   color: whitesmoke;
   font-size: 1.5rem;
   text-align: center;
   line-height: 140%;
 }
-/* line 208, ../sass/style.scss */
+/* line 210, ../sass/style.scss */
 .main .nav-season {
   width: 100%;
   display: inline-block;
 }
-/* line 209, ../sass/style.scss */
+/* line 211, ../sass/style.scss */
 .main .nav-season :first-child {
   margin-top: 50px;
   margin-left: 46.7%;
 }
-/* line 213, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .main .nav-season a {
   display: inline-block;
   color: transparent;
@@ -260,95 +265,95 @@ body {
   margin-right: 5px;
   text-align: center;
 }
-/* line 225, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .main .nav-season li {
   display: inline-block;
 }
 
 /* golbal tag style */
 @media screen and (min-width: 1300px) {
-  /* line 234, ../sass/style.scss */
+  /* line 236, ../sass/style.scss */
   .global-nav .container {
     text-align: center;
     margin: auto;
   }
 
-  /* line 240, ../sass/style.scss */
+  /* line 242, ../sass/style.scss */
   .content .profile-status, .content .stream-container {
     width: 700px;
     margin: 40px auto 0;
   }
 }
 @media screen and (max-width: 1299px) {
-  /* line 249, ../sass/style.scss */
+  /* line 251, ../sass/style.scss */
   .content .profile-status, .content .stream-container {
     width: 90%;
     margin: 40px auto 0;
   }
-  /* line 254, ../sass/style.scss */
+  /* line 256, ../sass/style.scss */
   .content ul li a span {
     font-size: 14px;
   }
 }
 @media screen and (max-width: 980px) {
-  /* line 261, ../sass/style.scss */
+  /* line 263, ../sass/style.scss */
   .content {
     right: 0;
   }
-  /* line 263, ../sass/style.scss */
+  /* line 265, ../sass/style.scss */
   .content .profile-status, .content .stream-container {
     margin: 40px 0 0 auto;
   }
-  /* line 267, ../sass/style.scss */
+  /* line 269, ../sass/style.scss */
   .content ul li a span {
     font-size: 12px;
   }
 }
 @media screen and (max-width: 980px) and (max-width: 750px) {
-  /* line 274, ../sass/style.scss */
+  /* line 276, ../sass/style.scss */
   .top-bar .global-actions li {
     display: none;
   }
-  /* line 276, ../sass/style.scss */
+  /* line 278, ../sass/style.scss */
   .top-bar .global-actions li:first-child {
     display: inline-block;
   }
-  /* line 282, ../sass/style.scss */
+  /* line 284, ../sass/style.scss */
   .top-bar .pull-right .search .form-search {
     display: none;
   }
 
-  /* line 288, ../sass/style.scss */
+  /* line 290, ../sass/style.scss */
   .left-aside {
     display: none;
   }
 
-  /* line 292, ../sass/style.scss */
+  /* line 294, ../sass/style.scss */
   .content {
     left: 0;
     right: 0;
   }
-  /* line 296, ../sass/style.scss */
+  /* line 298, ../sass/style.scss */
   .content .profile-status {
     background-color: white;
     width: 100%;
     height: 100%;
   }
-  /* line 301, ../sass/style.scss */
+  /* line 303, ../sass/style.scss */
   .content .profile-status ul li {
     display: block;
   }
-  /* line 303, ../sass/style.scss */
+  /* line 305, ../sass/style.scss */
   .content .profile-status ul li a span {
     font-weight: normal;
   }
-  /* line 309, ../sass/style.scss */
+  /* line 311, ../sass/style.scss */
   .content .stream-container {
     background-color: white;
     width: 100%;
   }
 
-  /* line 315, ../sass/style.scss */
+  /* line 317, ../sass/style.scss */
   .dashboard-right {
     display: none;
   }
