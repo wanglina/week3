@@ -140,13 +140,6 @@ $font-color: white;
 }
 
 .main {
-  .season {
-    padding: 4.1em 0 5.6em;
-  }
-  ul {
-    background-color: #766DCC;
-    height: 200px;
-  }
   img {
     height: 70px;
     width: 70px;
@@ -164,19 +157,53 @@ $font-color: white;
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
   }
-  span {
-    font-size: 1.5rem;
-    display: block;
-    margin-left: 46.9%;
-    color: whitesmoke;
-    margin-bottom: 20px;
+  .about-us {
+    height: 300px;
+    display: inline-block;
+    width: 100%;
+    li {
+      display: inline-block;
+    }
+    img {
+      display: inline-block;
+    }
+    li:nth-of-type(1) {
+      background-color: #EDEDED;
+      width: 50%;
+      height: 100%;
+    }
+    li:nth-of-type(2) {
+      background-color: #EFD26C;
+      width: 50%;
+      height: 100%;
+    }
+    span {
+      font-size: 1rem;
+      color: whitesmoke;
+    }
   }
-  p {
-    color: whitesmoke;
-    font-size: 1.5rem;
-    text-align: center;
-    line-height: 140%;
+
+  .seasons {
+    ul {
+      background-color: #766DCC;
+      height: 200px;
+    }
+
+    span {
+      font-size: 1.5rem;
+      display: block;
+      margin-left: 46.9%;
+      color: whitesmoke;
+      margin-bottom: 20px;
+    }
+    p {
+      color: whitesmoke;
+      font-size: 1.5rem;
+      text-align: center;
+      line-height: 140%;
+    }
   }
+
 
   .nav-season {
     :first-child {
