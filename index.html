@@ -8,6 +8,8 @@
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <link href="stylesheets/style.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/pageView.js"></script>
 </head>
 <body>
 <header>
@@ -28,12 +30,12 @@
                     </a>
                 </li>
                 <li>
-                    <a class="nav-top" href="gogogo">
+                    <a class="nav-top" href="#gogogo">
                         gogogo
                     </a>
                 </li>
             </ul>
-            <!--<span>There is such a lot of world to see</span>-->
+
         </div>
         <div class="right">
             <ul class="nc-right-nav nc-logged-out">
@@ -45,21 +47,34 @@
 </header>
 
 <div class="main">
-    <ul class="about-us">
-        <a name="aboutUs"></a>
-        <li><img src="./img/p1.jpg"><span></span></li><li><img src="./img/p8.jpg"><span>Wang Lina</span></li>
-    </ul>
-    <div class="seasons">
-        <a name="seasonIntro"></a>
-        <ul class="season">
 
-            <li class="spring">
-                <a name="spring"></a>
-                <img src="./img/spring.jpg">
-                <span>
-                    Spring
-                </span>
+    <a class="anchor" name="seasonIntro"></a>
+    <div class="seasons seasons">
+        <ul class="season seasons-slider">
+            <li class="spring season-active-slide">
+                <div class="season">
+                    <img src="./img/spring.jpg">
+                    <ul class="season-info">
+                        <li>Spring</li>
+                        <li>go out in Spring</li>
+                    </ul>
+                </div>
+                <p>
+                    碧玉妆成一树高，
+                    万条垂下绿丝绦。
+                    不知细叶谁裁出，
+                    二月春风似剪刀。
+                </p>
 
+            </li>
+            <li class="summer">
+                <div class="season">
+                    <img src="./img/summer.jpg">
+                    <ul class="season-info">
+                        <li>Summer</li>
+                        <li>go out in Summer</li>
+                    </ul>
+                </div>
                 <p>
                     碧玉妆成一树高，
                     万条垂下绿丝绦。
@@ -67,19 +82,96 @@
                     二月春风似剪刀。
                 </p>
             </li>
-            <li class="summer"></li>
-            <li class="autumn"></li>
-            <li class="winter"></li>
+            <li class="autumn">
+                <div class="season">
+                    <img src="./img/autumn.jpg">
+                    <ul class="season-info">
+                        <li>Autumn</li>
+                        <li>go out in autumn</li>
+                    </ul>
+                </div>
+                <p>
+                    碧玉妆成一树高，
+                    万条垂下绿丝绦。
+                    不知细叶谁裁出，
+                    二月春风似剪刀。
+            </li>
+            <li class="winter">
+                <div class="season">
+                    <img src="./img/winter.jpg">
+                    <ul class="season-info">
+                        <li>Winter</li>
+                        <li>go out in winter</li>
+                    </ul>
+                </div>
+                <p>
+                    碧玉妆成一树高，
+                    万条垂下绿丝绦。
+                    不知细叶谁裁出，
+                    二月春风似剪刀。
+                </p>
+            </li>
         </ul>
-        <ul class="nav-season">
-            <li class=""><a href="#spring">1</a></li>
-            <li class=""><a href="#summer">2</a></li>
-            <li class=""><a href="#autumn">3</a></li>
-            <li class=""><a href="#winter">4</a></li>
-        </ul>
+        <!--<ul class="nav-season">-->
+            <!--<li class=""><a href="#spring">1</a></li>-->
+            <!--<li class=""><a href="#summer">2</a></li>-->
+            <!--<li class=""><a href="#autumn">3</a></li>-->
+            <!--<li class=""><a href="#winter">4</a></li>-->
+        <!--</ul>-->
     </div>
+    <ul class="gogogo">
+        <a name="gogogo" class="anchor"></a>
+    <li class="chap">
+        <img class='dali' src="./img/char1.jpeg">
+        <h1>There is such a lot of world to see!</h1>
+        <ul>
+            <li class="view image_stack">
+                <img class="photo1 stackphotos" src="./img/p1.jpg">
+                <img class="photo2 stackphotos show" src="./img/p2.jpg">
+                <img class="photo3 stackphotos show" src="./img/p3.jpg">
+            </li><li class="food image_stack">
+                <img class="photo1 stackphotos show" src="./img/p4.jpg">
+                <img class="photo2 stackphotos show" src="./img/p5.jpg">
+                <img class="photo3 stackphotos show" src="./img/p6.jpg">
+            </li>
+        </ul>
+    </li>
+        <li class="chap">
+            <img class='dali' src="./img/char2.jpeg">
+            <h1>There is such a lot of world to see!</h1>
+            <ul>
+                <li class="view image_stack">
+                    <img class="photo1 stackphotos" src="./img/p1.jpg">
+                    <img class="photo2 stackphotos show" src="./img/p2.jpg">
+                    <img class="photo3 stackphotos show" src="./img/p3.jpg">
+                </li><li class="food image_stack">
+                <img class="photo1 stackphotos show" src="./img/p4.jpg">
+                <img class="photo2 stackphotos show" src="./img/p5.jpg">
+                <img class="photo3 stackphotos show" src="./img/p6.jpg">
+            </li>
+            </ul>
+        </li>
+        <li class="chap">
+            <img class='dali' src="./img/char3.jpeg">
+            <h1>There is such a lot of world to see!</h1>
+            <ul>
+                <li class="view image_stack">
+                    <img class="photo1 stackphotos" src="./img/p1.jpg">
+                    <img class="photo2 stackphotos show" src="./img/p2.jpg">
+                    <img class="photo3 stackphotos show" src="./img/p3.jpg">
+                </li><li class="food image_stack">
+                <img class="photo1 stackphotos show" src="./img/p4.jpg">
+                <img class="photo2 stackphotos show" src="./img/p5.jpg">
+                <img class="photo3 stackphotos show" src="./img/p6.jpg">
+            </li>
+            </ul>
+        </li>
+    </ul>
+    <a name="aboutUs" class="anchor"></a>
+    <ul class="about-us">
+        <li><img src="./img/p1.jpg"><span></span></li><li><img src="./img/me.jpg"><span>Wang Lina</span></li>
+    </ul>
 </div>
-
 
 </body>
 </html>
