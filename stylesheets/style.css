@@ -451,7 +451,7 @@ ul#pics li:hover {
   margin-top: 65px;
 }
 
-/* line 442, ../sass/style.scss */
+/* line 441, ../sass/style.scss */
 .seasons {
   background: #766ACF;
   text-align: center;
@@ -459,7 +459,7 @@ ul#pics li:hover {
   height: 500px;
 }
 
-/* line 449, ../sass/style.scss */
+/* line 448, ../sass/style.scss */
 .seasons::before, .seasons::after {
   position: absolute;
   content: '';
@@ -469,42 +469,42 @@ ul#pics li:hover {
   background-color: rgba(118, 109, 204, 0);
 }
 
-/* line 458, ../sass/style.scss */
+/* line 457, ../sass/style.scss */
 .seasons::before {
   top: 0;
   background-image: -webkit-linear-gradient(bottom, rgba(118, 109, 204, 0), rgba(118, 109, 204, 0.7));
   background-image: linear-gradient(to top, rgba(118, 109, 204, 0), rgba(118, 109, 204, 0.7));
 }
 
-/* line 464, ../sass/style.scss */
+/* line 463, ../sass/style.scss */
 .seasons::after {
   bottom: 0;
   background-image: -webkit-linear-gradient(bottom, rgba(118, 109, 204, 0.7), rgba(118, 109, 204, 0));
   background-image: linear-gradient(to top, rgba(118, 109, 204, 0.7), rgba(118, 109, 204, 0));
 }
 
-/* line 470, ../sass/style.scss */
+/* line 469, ../sass/style.scss */
 .seasons .seasons-slider {
   overflow: hidden;
   position: relative;
   height: 400px;
 }
 
-/* line 476, ../sass/style.scss */
+/* line 475, ../sass/style.scss */
 .seasons .seasons-slider::after {
   clear: both;
   content: "";
   display: table;
 }
 
-/* line 482, ../sass/style.scss */
+/* line 481, ../sass/style.scss */
 .seasons .seasons-slider > li {
   position: absolute;
   top: 0;
   left: 0;
   height: 100%;
   width: 100%;
-  padding: 1.4em 0;
+  padding: 1.4rem 0;
 }
 
 /* line 491, ../sass/style.scss */
@@ -516,7 +516,7 @@ ul#pics li:hover {
 
 /* line 497, ../sass/style.scss */
 .seasons .season li:first-child {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #ffffff;
   font-weight: bold;
   margin-bottom: 0.15em;

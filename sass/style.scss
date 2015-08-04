@@ -435,7 +435,6 @@ ul#pics li:hover {
 .single_photo {
   margin-top: 80px;
   margin-left: 100px;
-
   margin-top: 65px;
 }
 
@@ -485,8 +484,9 @@ ul#pics li:hover {
   left: 0;
   height: 100%;
   width: 100%;
-  padding: 1.4em 0;
+  padding: 1.4rem 0;
 }
+
 
 .seasons .season li {
   line-height: 1.3;
@@ -495,7 +495,7 @@ ul#pics li:hover {
 }
 
 .seasons .season li:first-child {
-  font-size: 1.4rem;
+  font-size: 1.3rem;
   color: #ffffff;
   font-weight: bold;
   margin-bottom: 0.15em;

@@ -19,6 +19,18 @@ jQuery(document).ready(function ($) {
             $('img.photo3').css("left", "");
 
         });
+    //$(".left").everyTime(10, function(){
+    //    $(".left").animate({top:"100px"}, 1000);
+    //    $(".left").animate({top:"0px"}, 1000);
+    //
+    //});
+    //
+    //
+    //$(".left").everyTime(1000, function(){
+    //    $(".left").animate({"opacity": 0, duration: 1000});
+    //    $(".left").animate({"opacity": 1, duration: 1000});
+    //
+    //});
 
     function nextSlide($container, $pagination, $n) {
         var visibleSlide = $container.children('.season-active-slide'),
